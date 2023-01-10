@@ -14,6 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+:root {
+  --yellow: #D0A538;
+  --green: #121268;
+  --blue: #e0e0e4;
+  --light_black: rgb(34, 33, 33);
+}
 
 @media (prefers-color-scheme: dark) {
   html {
