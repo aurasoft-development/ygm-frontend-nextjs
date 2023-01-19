@@ -1,0 +1,53 @@
+ .whatsapp_button .float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 3%;
+    right: 3%;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 50px;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 100;
+    animation: whatsapp_button 1.5s ease-in-out infinite alternate !important;
+  }
+  
+  .whatsapp_button .my-float {
+    margin-top: 16px;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .whatsapp_button .float {
+      display: flex;
+      position: fixed;
+      width: 40px;
+      height: 40px;
+      bottom: 5%;
+      right: 3%;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 14px;
+      font-size: 30px;
+      z-index: 100;
+    }
+  }
+  
+  @keyframes whatsapp_button {
+    0% {
+      color: #fff;
+      background-color: #25d366;
+    }
+  
+    100% {
+      color: #25d366;
+      background-color: #fff;
+    }
+  }
