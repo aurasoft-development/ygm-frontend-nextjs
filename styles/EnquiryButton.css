@@ -1,4 +1,123 @@
 .apply_btn {
+  position: fixed;
+  top: 45%;
+  right: -2%;
+  z-index: 1000;
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+  border-bottom: none !important;
+  color: #ffffff;
+  font-size: 20px;
+  width: 150px;
+  padding: 5px;
+  transition: 0.6s !important;
+  transform: rotate(270deg);
+  box-shadow: -2px -2px 5px rgb(194, 174, 174);
+  border: none;
+}
+
+.apply_btn:hover {
+  background-image: conic-gradient(from var(--border-angle), #dc9717, #f2a10a 50%, #ffa500), conic-gradient(from var(--border-angle), transparent 20%, #ffa500, #127e3f);
+  box-shadow: -2px -4px 5px rgb(216, 211, 211);
+}
+
+@media screen and (max-width: 1920px) {
+  .apply_btn {
+    right: -2.9%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .apply_btn {
+    right: -3.7%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .apply_btn {
+    right: -4.1%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .apply_btn {
+    right: -4.2%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .apply_btn {
+    right: -5.2%;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .apply_btn {
+    right: -5.8%;
+    top: 23%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .apply_btn {
+    right: -6.5%;
+    top: 26%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .apply_btn {
+    right: -6.9%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .apply_btn {
+    right: -9.9%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .apply_btn {
+    font-size: 16px;
+    top: 45%;
+    right: -13% !important;
+    /* right: -8.4%; */
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .apply_btn {
+    right: -15% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .apply_btn {
+    right: -15% !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .apply_btn {
+    right: -9.9%;
+    top: 41%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .apply_btn {
+    right: -17% !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .apply_btn {
+    right: -12.8%;
+  }
+}
+.apply_btn {
     --border-size: 3px;
     --border-angle: 0turn;
     background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #ffa500, #127e3f);
