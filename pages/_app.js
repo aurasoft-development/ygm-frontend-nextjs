@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css'
 import { ToastContainer } from 'react-toastify';
 import { useState } from 'react';
 import Router from 'next/router';
@@ -25,9 +26,9 @@ function MyApp({ Component, pageProps }) {
     {Loading && <Loader />}
     <ToastContainer position="top-right" limit={1} />
     <Component {...pageProps} />
-<EnquiryButton/>
-<WhatsappButton/>
-<ScrollTopButton/>
+    <EnquiryButton />
+    <WhatsappButton />
+    <ScrollTopButton />
   </Layout>
 }
 
