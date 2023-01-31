@@ -20,6 +20,7 @@ import HomeSlider from '../components/HomeSlider';
 import Modal from 'react-bootstrap/Modal';
 import ContactForm from '../components/ContactForm';
 import EnquiryButton from '../components/Enquiry';
+import Links from '../components/Links';
 
 
 
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
   return <Layout>
     {/* {Loading && <Loader />} */}
     <HomeSlider />
+    <Links/>
     <Enquiry setOpen={handleShow} />
     <ToastContainer position="top-right" limit={1} />
     <Component {...pageProps} />
