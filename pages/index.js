@@ -1,11 +1,23 @@
-import Link from "next/link";
-
-function Home() {
+import LatestNews from "../components/LatestNews";
+function Home({LatestNewsData }) {
+console.log('LatestNewsData :', LatestNewsData);
   return (
     <>
-      <h1>This is home page for YGM</h1>
+      <LatestNews data={LatestNewsData.news} />
     </>
   );
+}
+
+export async function getStaticProps() {
+  // featching Api for Testiminials Componenet 
+  let LatestNews = await fetch(`https://getyourcollege.in/gyc_admin/api/get_news_feeds.php`)
+  const LatestNewsData = await LatestNews.json();
+  return {
+    props: {
+      LatestNewsData: LatestNewsData,
+     
+    }
+  };
 }
 
 export default Home;
