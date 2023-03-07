@@ -2,7 +2,7 @@
   position: absolute;
   top: 18%;
   left: 15%;
-  background: var(--orange);
+  background: var(--yellow);
   border-radius: 40px;
   padding: 5px;
   display: flex;
@@ -15,7 +15,7 @@
 
 .searchBox:hover>.searchButton {
   background: white;
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .searchButton {
@@ -26,7 +26,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--orange);
+  background: var(--yellow);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -53,7 +53,7 @@ ul {
 }
 
 .active-tab.active {
-  background-color: var(--blue);
+  background-color: var(--yellow);
   font-size: 16px;
   padding: 10px 10px;
   border-radius: 5px;
@@ -62,10 +62,10 @@ ul {
 .content .links .active-tab li a:hover,
 .content .links .active-tab li label:hover {
   color: rgb(255, 255, 255);
-  background-color: var(--blue);
+  background-color: var(--yellow);
 }
 .active-tab {
-  color: var(--blue);
+  color: var(--yellow);
   font-size: 16px;
   padding: 10px 10px;
   border-radius: 5px;
@@ -123,7 +123,7 @@ nav .content .links {
   text-align: center;
 }
 .content .links li:hover {
-  background-color: var(--blue);
+  background-color: var(--yellow);
   color: #fff;
 }
 .dropdown-toggle::after {
@@ -143,12 +143,12 @@ align-items: left !important;
   border-right: 0.3em solid transparent;
   border-bottom: 0;
   border-left: 0.3em solid transparent;
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 .content .links li a,
 .content .links li label {
-  color: var(--blue);
+  color: var(--yellow);
   font-size: 16px;
   padding: 10px 10px;
   border-radius: 5px;
@@ -162,17 +162,17 @@ align-items: left !important;
 .content .links li a:hover,
 .content .links li label:hover {
   color: rgb(255, 255, 255);
-  background-color: var(--blue);
+  background-color: var(--yellow);
 }
 
 .Counselling:hover {
   color: white !important;
-  background-color: var(--blue);
+  background-color: var(--yellow);
 }
 
 .wrapper .search-icon,
 .wrapper .menu-icon {
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 18px;
   cursor: pointer;
   line-height: 70px;
@@ -210,13 +210,13 @@ align-items: left !important;
   border: none;
   outline: none;
   font-size: 17px;
-  color: var(--orange);
+  color: var(--yellow);
   background: #fff;
   padding: 0 100px 0 15px;
 }
 
 .search-box input::placeholder {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .search-box .go-icon {
@@ -228,7 +228,7 @@ align-items: left !important;
   width: 70px;
   border: none;
   outline: none;
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 20px;
   cursor: pointer;
 }
@@ -255,7 +255,7 @@ align-items: left !important;
 }
 
 .content .links ul li a {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .content .links li:hover>ul {
@@ -289,7 +289,7 @@ align-items: left !important;
 
 .content .links ul li:hover {
   border-left: 5px solid #ffa500;
-  background-color: var(--blue);
+  background-color: var(--yellow);
 }
 
 .content .links ul li:hover>a {
@@ -339,7 +339,7 @@ ul ul ul::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--green);
+  background-color: var(--PrimeBlack);
   border-radius: 10px;
 }
 
@@ -438,7 +438,7 @@ li:hover>ul {
     position: static;
     opacity: 1;
     visibility: visible;
-    color: var(--orange);
+    color: var(--yellow);
 
   }
 
@@ -523,7 +523,7 @@ li:hover>ul {
 @-webkit-keyframes condemned_blink_effect {
   0% {
     visibility: hidden;
-    color: var(--blue);
+    color: var(--yellow);
   }
 
   50% {
@@ -532,24 +532,24 @@ li:hover>ul {
 
   100% {
     visibility: visible;
-    color: var(--blue);
+    color: var(--yellow);
   }
 }
 
 @keyframes condemned_blink_effect {
   0% {
     visibility: hidden;
-    color: var(--green);
+    color: var(--PrimeBlack);
   }
 
   50% {
     visibility: hidden;
-    color: var(--green);
+    color: var(--PrimeBlack);
   }
 
   100% {
     visibility: visible;
-    color: var(--blue);
+    color: var(--yellow);
   }
 }
 
@@ -603,13 +603,13 @@ li:hover>ul {
   justify-content: center;
   margin: auto 0px;
   transition-duration: 0.8s;
-  border: 1px solid var(--orange);
+  border: 1px solid var(--yellow);
   width: 250px;
 
 }
 
 .Serch_header i {
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   font-size: 20px;
 }
 

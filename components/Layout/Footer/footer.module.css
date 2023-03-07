@@ -10,7 +10,7 @@
 .Foo_heading {
     font-size: 20px;
    
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
 }
 
 .ul li {
@@ -62,12 +62,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--orange);
+    background-color: var(--yellow);
     transition: all .6s ease;
 }
 
 .Footer_section .li a:hover {
-    background-color: var(--blue);
+    background-color: var(--yellow);
 }
 
 .Footer_section i {

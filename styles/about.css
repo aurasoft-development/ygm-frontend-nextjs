@@ -4,7 +4,7 @@
     margin-bottom: 50px;
     font-size: 30px;
     text-align: center;
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
 }
 
 .About_Top {
@@ -24,13 +24,13 @@
 .bg-1 {
     flex: 1;
     width: 100%;
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
 
 .bg-2 {
     flex: 1;
     width: 100%;
-    background-color: var(--green);
+    background-color: var(--PrimeBlack);
 }
 
 .about-container {
@@ -65,12 +65,12 @@
 
 .about-container .text-container h2 {
     
-    color: var(--orange);
+    color: var(--yellow);
     text-align: center;
 }
 
 .about-container .text-container h3 {
-    color: var(--orange);
+    color: var(--yellow);
     display: block;
     text-align: center !important;
     
@@ -80,13 +80,13 @@
 .about-container .text-container h4 {
     
     padding: 10px 0px;
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 .text-container #Home_btn {
     background: transparent !important;
-    border: 2px solid var(--orange) !important;
-    color: var(--orange) !important;
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
     font-size: 20px;
     width: 150px;
     padding: 5px;
@@ -96,7 +96,7 @@
 }
 
 .text-container #Home_btn:hover {
-    background: var(--orange) !important;
+    background: var(--yellow) !important;
     border-radius: 2px solid #fff !important;
     color: #fff !important;
 }
@@ -155,7 +155,7 @@
         margin-bottom: 0px;
         
         padding: 10px 0px;
-        color: var(--orange);
+        color: var(--yellow);
     }
 
     .text-container #Home_btn {
@@ -294,7 +294,7 @@
 
 .Director .fa-brands {
     font-size: 30px !important;
-    color: var(--orange);
+    color: var(--yellow);
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -324,7 +324,7 @@
 
 .Director h1 {
     
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
     text-align: center;
     margin: 20px 0px;
 }
@@ -336,7 +336,7 @@
 .Director .text h4 {
    
     margin: 10px 0px;
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
 }
 
 .Director .text p {
@@ -430,7 +430,7 @@
 
     .Director h1 {
         
-        color: var(--orange) !important;
+        color: var(--yellow) !important;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 20px;
@@ -457,7 +457,7 @@
 .AboutDirectors h1 {
     
     margin: 20px 0px;
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
 }
 
 .AboutDirectors .col-md-3 {
@@ -544,7 +544,7 @@
 .card_bio h5 {
    
     padding-top: 15px;
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 .card_bio ul {
@@ -567,7 +567,7 @@
 }
 
 .card_bio ul li a:hover {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 /* =============================================================================================================================== */
@@ -674,7 +674,7 @@
 }
 
 .Counseling_courses div:hover {
-    background: linear-gradient(-70deg, var(--orange) 0%, rgba(235, 8, 8, 0) 90%);
+    background: linear-gradient(-70deg, var(--yellow) 0%, rgba(235, 8, 8, 0) 90%);
 }
 
 
@@ -696,7 +696,7 @@
         width: 280px;
         height: 280px;
         border-radius: 50%;
-        background-color: var(--orange);
+        background-color: var(--yellow);
         line-height: 35px;
         
     }
@@ -775,7 +775,7 @@
         text-align: center;
         font-size: 30px;
         
-        color: var(--orange);
+        color: var(--yellow);
     }
 
     .Our_Process_card h4 {
@@ -983,7 +983,7 @@
 .Sister_Concerns a {
     font-size: 20px;
     text-decoration: none;
-    color: var(--orange);
+    color: var(--yellow);
    
 }
 
@@ -1012,7 +1012,7 @@
         width: 250px;
         height: 250px;
         border-radius: 50%;
-        background-color: var(--orange);
+        background-color: var(--yellow);
         
     }
 }
@@ -1028,7 +1028,7 @@
         width: 210px;
         height: 210px;
         border-radius: 50%;
-        background-color: var(--orange);
+        background-color: var(--yellow);
         
     }
     #Sister_Concerns {
@@ -1071,7 +1071,7 @@
     .Sister_Concerns a {
         font-size: 16px;
         text-decoration: none;
-        color: var(--orange);
+        color: var(--yellow);
        
     }
 

@@ -5,12 +5,12 @@
 }
 
 /* Color codes:-
-Blue: var(--blue)
-Orange: var(--orange)
-Green: var(--green) */
+Blue: var(--yellow)
+Orange: var(--yellow)
+Green: var(--PrimeBlack) */
 
 .main-heading {
-  color: var(--orange);
+  color: var(--yellow);
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
@@ -19,7 +19,7 @@ Green: var(--green) */
 }
 
 .text-success {
-  color: var(--green);
+  color: var(--PrimeBlack);
 }
 
 .btn {
@@ -27,17 +27,17 @@ Green: var(--green) */
 }
 
 .btn-outline-success {
-  color: var(--green);
-  border-color: var(--green);
+  color: var(--PrimeBlack);
+  border-color: var(--PrimeBlack);
 }
 
 .btn-outline-success :hover {
-  background-color: var(--green);
+  background-color: var(--PrimeBlack);
 }
 
 .slick-prev:before,
 .slick-next:before {
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   font-size: 50px !important;
 }
 
@@ -84,7 +84,7 @@ Green: var(--green) */
   margin-bottom: 6px !important;
 }
 .video-slider .lhs {
-  border: 2px solid var(--orange);
+  border: 2px solid var(--yellow);
   border-radius: 5px;
 }
 .video-slider .lhs ul {
@@ -92,10 +92,10 @@ Green: var(--green) */
   padding-left: 1rem;
 }
 .video-slider .lhs ul a {
-  color: var(--green);
+  color: var(--PrimeBlack);
 }
 .video-slider .lhs ul a:hover {
-  color: var(--orange);
+  color: var(--yellow);
 }
 .video-slider .lhs .marquee-box {
   width: 100%;
@@ -189,12 +189,12 @@ Green: var(--green) */
 }
 
 .testimonial-slider .quote-left {
-  color: var(--orange);
+  color: var(--yellow);
   font-size: larger;
 }
 
 .testimonial-slider .quote-right {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .testimonialSlider .testimonial-image {

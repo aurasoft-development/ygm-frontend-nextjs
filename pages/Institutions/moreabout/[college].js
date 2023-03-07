@@ -36,7 +36,7 @@ function MoreAbout({ data, query }) {
           <Container className='py-5' data-aos="zoom-in-right" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
             <Row className="d-flex justify-content-center ">
               <Col lg="5" className='align-items-center d-flex'>
-                <h4 className='heading'> <div style={{ color: "var(--orange)" }} >{data[0].college_name} ({data[0].college_type})</div></h4>
+                <h4 className='heading'> <div style={{ color: "var(--yellow)" }} >{data[0].college_name} ({data[0].college_type})</div></h4>
               </Col>
               <Col lg="5" className='align-items-center d-flex'>
                 <img layout='fill' loader={() => data[0].logo_path + data[0].college_logo} src={data[0].logo_path + data[0].college_logo} style={{ width: "100%" }} className="my-3" alt="LOGO" />

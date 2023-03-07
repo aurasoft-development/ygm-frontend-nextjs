@@ -13,7 +13,7 @@
 }
 
 .contentTable thead tr {
-    background: var(--orange);
+    background: var(--yellow);
     color: #fff;
     text-align: left;
 }
@@ -29,7 +29,7 @@
 }
 
 .contentTable tbody tr.activeRow {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 .contentTable tbody tr:hover,
@@ -42,5 +42,5 @@
 }
 
 .contentTable tbody tr:last-of-type {
-    border-bottom: 2px solid var(--orange);
+    border-bottom: 2px solid var(--yellow);
 }

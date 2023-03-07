@@ -21,7 +21,7 @@
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--green);
+  color: var(--PrimeBlack);
 }
 
 .input-error {
@@ -36,7 +36,7 @@ textarea::placeholder {
 }
 
 .sub-heading {
-  color: var(--orange);
+  color: var(--yellow);
   text-align: center;
 
 }
@@ -48,38 +48,38 @@ textarea {
   border: 0;
   outline: 0;
   padding: 0.3rem;
-  border-bottom: 2px solid var(--green);
-  color: var(--green);
+  border-bottom: 2px solid var(--PrimeBlack);
+  color: var(--PrimeBlack);
 }
 .text-area {
   height: 80px;
 }
 .submit-button {
   width: 100%;
-  color: var(--green);
-  border: 2px solid var(--green);
+  color: var(--PrimeBlack);
+  border: 2px solid var(--PrimeBlack);
   margin: auto;
   transition: 0.6s;
 }
 
 .submit-button:hover {
   color: #fff;
-  background-color: var(--green);
+  background-color: var(--PrimeBlack);
 }
 .Form_main_heading {
 
-  color: var(--orange);
+  color: var(--yellow);
   text-align: center;
   margin-top: 20px;
 }
 
 .modal-content {
   padding: 20px;
-  /* background-image: linear-gradient(to bottom right, orange, #fff, #fff, #fff, #fff, var(--green)) !important; */
+  /* background-image: linear-gradient(to bottom right, orange, #fff, #fff, #fff, #fff, var(--PrimeBlack)) !important; */
 }
 
 .message {
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 20px;
   padding: 50px !important;
   text-align: center;

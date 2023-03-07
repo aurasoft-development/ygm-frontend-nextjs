@@ -3,7 +3,7 @@
     margin-top: 30px;
     font-size: 30px;
     text-align: center;
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
 }
 
 .Job_card {
@@ -16,7 +16,7 @@
 
 .job_menu {
     display: flex;
-    color: var(--blue);
+    color: var(--yellow);
     justify-content: space-between;
 }
 
@@ -26,7 +26,7 @@
 
 .job_title {
     font-size: 30px;
-    color: var(--orange);
+    color: var(--yellow);
    
 }
 
@@ -40,7 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--blue);
+    color: var(--yellow);
 }
 
 .job-details i {
@@ -50,7 +50,7 @@
 }
 
 .job-details i:hover {
-    color: var(--orange);
+    color: var(--yellow);
 }
 
 .job-cards {
@@ -73,8 +73,8 @@
 }
 
 .job-cards .applynow-btn {
-    color: var(--orange);
-    border: 1px solid var(--orange);
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
     background-color: white;
     padding: 5px 15px;
     transition: all 0.7s;
@@ -82,7 +82,7 @@
 
 .job-cards .applynow-btn:hover {
     color: white;
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
 
 @media screen and (max-width: 280px) {

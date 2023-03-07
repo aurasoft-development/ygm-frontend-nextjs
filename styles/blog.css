@@ -6,7 +6,7 @@
 
 .blogCard:hover {
     box-shadow: 5px 5px 10px gray;
-    border-bottom: 4px solid var(--blue);
+    border-bottom: 4px solid var(--yellow);
     cursor: pointer;
     transform: scale(1.03);
     transition: all 0.3s;
@@ -50,7 +50,7 @@
 }
 
 .blogCard .postDetails .name {
-    color: var(--blue);
+    color: var(--yellow);
     line-height: 1.2;
     font-size: 0.7rem;
    
@@ -76,7 +76,7 @@
     padding: 0.25em 0.75em;
     border-radius: 1em;
     font-size: 0.75rem;
-    background: linear-gradient(to right, var(--blue), var(--green));
+    background: linear-gradient(to right, var(--yellow), var(--PrimeBlack));
     color: #fff;
 }
 
@@ -84,7 +84,7 @@
     font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: bold;
-    color: var(--blue);
+    color: var(--yellow);
 }
 
 .blogCard p {

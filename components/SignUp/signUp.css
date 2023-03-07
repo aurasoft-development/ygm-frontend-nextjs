@@ -77,8 +77,8 @@
     border: none;
     background-image: linear-gradient(
       -55deg,
-      var(--green) 0%,
-      var(--blue) 100%
+      var(--PrimeBlack) 0%,
+      var(--yellow) 100%
     );
     color: var(--white);
     font-size: 1.2rem;
@@ -224,8 +224,8 @@
     transform: translate(35%, 0);
     background-image: linear-gradient(
       -55deg,
-      var(--green) 0%,
-      var(--blue) 100%
+      var(--PrimeBlack) 0%,
+      var(--yellow) 100%
     );
     transition: 1s ease-in-out;
     z-index: 6;
@@ -334,8 +334,8 @@
 }
 
   .LogIn-input-group input {
-    border-bottom: 0.125rem solid var(--green) !important;
+    border-bottom: 0.125rem solid var(--PrimeBlack) !important;
 }
 .upload{
-  color: var(--green);
+  color: var(--PrimeBlack);
 }

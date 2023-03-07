@@ -8,13 +8,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* --orange: #ffa500;
---green: #127e3f;
---blue: #2f2f7c; */
+/* --yellow: #ffa500;
+--PrimeBlack: #127e3f;
+--yellow: #2f2f7c; */
 :root {
-  --orange: #2f2f7c;
-  --green: #127e3f;
-  --blue: #14145a;
+  --yellow: #c6ac2b;
+  --PrimeBlack: #343a40;
   --light_black: rgb(34, 33, 33);
   --light: #f3f3f3;
   --primary-color: #1e88e5;
@@ -63,21 +62,21 @@ body {
 }
 
 .carousel-indicators .active {
-  background-color: var(--orange) !important;
+  background-color: var(--yellow) !important;
 }
 
 
 /* costom and comman css Devendra */
 .heading_35 {
 
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .heading_45 {
 
   margin-top: 30px;
   font-size: 30px;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .heading_46 {
@@ -85,7 +84,7 @@ body {
   margin-top: 40px;
   font-size: 25px;
   display: inline-block !important;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   font-family: "Poppins", sans-serif;
 }
 
@@ -95,7 +94,7 @@ body {
   margin-top: 5px;
   width: 30%;
   height: 2px;
-  background: var(--orange);
+  background: var(--yellow);
   transition: width .4s ease-in;
 }
 
@@ -137,7 +136,7 @@ body {
 }
 
 .btn-white {
-  background-color: var(--orange);
+  background-color: var(--yellow);
   color: var(--light_black);
   font-size: 16px;
   border-radius: none !important;
@@ -183,7 +182,7 @@ body {
 
 /* =============================== */
 .quotes {
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   /* color: red; */
   font-size: 30px !important;
 }
@@ -214,7 +213,7 @@ ul ul ul::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--green);
+  background-color: var(--PrimeBlack);
   border-radius: 15px;
 }
 
@@ -277,7 +276,7 @@ ul ul ul::-webkit-scrollbar {
   align-items: center;
   text-align: center;
   margin-top: 30px;
-  background-color: var(--orange);
+  background-color: var(--yellow);
   border-radius: 10px;
   transition: box-shadow 0.5s;
 }
@@ -304,7 +303,7 @@ ul ul ul::-webkit-scrollbar {
   margin-top: 40px;
   font-size: 25px;
   display: inline-block !important;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   font-family: "Poppins", sans-serif;
 }
 
@@ -314,7 +313,7 @@ ul ul ul::-webkit-scrollbar {
   margin-top: 5px;
   width: 30%;
   height: 2px;
-  background: var(--orange);
+  background: var(--yellow);
   transition: width .4s ease-in;
 }
 
@@ -343,7 +342,7 @@ ul ul ul::-webkit-scrollbar {
 }
 
 .text_404 {
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 50px !important;
 
   text-align: center;
@@ -354,13 +353,13 @@ ul ul ul::-webkit-scrollbar {
   margin-bottom: 10px;
 
   text-decoration: none;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .backtohome .homebtn a {
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
   padding: 5px 10px;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--yellow);
 
 }
 
@@ -382,8 +381,8 @@ ul ul ul::-webkit-scrollbar {
   top: 45%;
   right: -2%;
   z-index: 1000;
-  background-color: var(--orange);
-  border: 2px solid var(--orange);
+  background-color: var(--yellow);
+  border: 2px solid var(--yellow);
   border-bottom: none !important;
   color: #ffffff;
   font-size: 20px;
@@ -402,7 +401,7 @@ ul ul ul::-webkit-scrollbar {
 
 .pagination>li>a {
   background-color: white;
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 .pagination>li>a:focus,
@@ -417,13 +416,13 @@ ul ul ul::-webkit-scrollbar {
 
 .pagination>.active>a {
   color: white;
-  background-color: var(--blue);
-  border: solid 1px var(--blue);
+  background-color: var(--yellow);
+  border: solid 1px var(--yellow);
 }
 
 .pagination>.active>a:hover {
-  background-color: var(--blue);
-  border: solid 1px var(--blue);
+  background-color: var(--yellow);
+  border: solid 1px var(--yellow);
 }
 
 @media screen and (max-width: 1920px) {
@@ -550,19 +549,19 @@ ul ul ul::-webkit-scrollbar {
 .slick-dots li.slick-active button:before {
   opacity: .75;
   font-size: 15px !important;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .slick-dots:hover button:before {
   opacity: .75;
   font-size: 15px !important;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .slick-dots button:before {
   opacity: .75;
   font-size: 15px !important;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .Video .slick-slide:hover,
@@ -573,11 +572,11 @@ ul ul ul::-webkit-scrollbar {
 
 /* H1 heading auto typing  */
 h1 {
-  color: var(--blue);
+  color: var(--yellow);
   font-size: 30px !important;
   position: relative;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.0vw var(--blue);
+  -webkit-text-stroke: 0.0vw var(--yellow);
 }
 
 @keyframes animate {
@@ -601,7 +600,7 @@ h1 {
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
   color: #fff !important;
-  background-color: var(--blue) !important;
+  background-color: var(--yellow) !important;
   border-radius: 20px 20px 0px 0px !important;
   margin-top: 10px !important;
 }
@@ -642,15 +641,15 @@ h1 {
 }
 
 .Explore_span {
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 
 /* Top College */
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   padding: 0px 10px !important;
-  color: var(--blue) !important;
-  /* border-right: 2px solid var(--blue); */
+  color: var(--yellow) !important;
+  /* border-right: 2px solid var(--yellow); */
 }
 
 
@@ -662,7 +661,7 @@ h1 {
 }
 
 .inner_tab a {
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .inner_tab_Sec {
@@ -688,11 +687,11 @@ h1 {
 .Burger_Popup_container i {
   font-size: 20px;
   margin-right: 5px;
-  color: var(--orange) !important;
+  color: var(--yellow) !important;
 }
 
 .Course_dropdown span {
-  color: var(--green) !important;
+  color: var(--PrimeBlack) !important;
 }
 
 .toggle_bar {
@@ -716,17 +715,17 @@ h1 {
 .css-69z67c-MuiTabs-scroller,
 .css-145v6pe-MuiButtonBase-root-MuiTabScrollButton-root {
   margin-bottom: 20px !important;
-  color: var(--blue) !important;
+  color: var(--yellow) !important;
 }
 
 .card-title {
   font-size: 1.2rem;
   text-transform: capitalize;
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 .BG_button {
-  background-color: var(--blue) !important;
+  background-color: var(--yellow) !important;
   color: var(--light) !important;
 }
 
@@ -735,7 +734,7 @@ h1 {
 }
 
 .BG_button:hover {
-  background-color: var(--green) !important;
+  background-color: var(--PrimeBlack) !important;
   color: white !important;
 }
 
@@ -786,11 +785,11 @@ h1 {
 
 .css-qfz70r-MuiFormGroup-root,
 .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
-  color: var(--blue) !important;
+  color: var(--yellow) !important;
 }
 
 .Color_blue {
-  color: var(--blue) !important;
+  color: var(--yellow) !important;
 }
 
 /* ===================================================== */
@@ -860,7 +859,7 @@ h1 {
   height: 40px;
   bottom: 12%;
   right: 3%;
-  color: var(--blue);
+  color: var(--yellow);
   border-radius: 50px;
   border: none;
   font-size: 50px;
@@ -955,7 +954,7 @@ h1 {
 }
 
 .Counselling {
-  color: var(--blue);
+  color: var(--yellow);
   padding: 10px 5px;
   height: 50% !important;
   border-radius: 5px;
@@ -977,11 +976,11 @@ h1 {
 }
 
 .css-1q2h7u5.Mui-selected {
-  color: var(--blue) !important;
+  color: var(--yellow) !important;
 }
 
 .css-9l3uo3 {
-  color: var(--blue) !important;
+  color: var(--yellow) !important;
 }
 
 
@@ -999,7 +998,7 @@ h1 {
 }
 
 .Counselling:hover {
-  color: var(--green);
+  color: var(--PrimeBlack);
 }
 
 /* css select dev_harshita */
@@ -1156,7 +1155,7 @@ h1 {
   padding: 5px 15px;
   background-color: rgb(252, 250, 250);
   border: 1px solid;
-  color: var(--blue);
+  color: var(--yellow);
   transition: .6s;
   font-weight: 500px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%) !important;

@@ -2,7 +2,7 @@
 
     margin-top: 30px;
     font-size: 30px;
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
     text-align: center;
 }
 
@@ -24,7 +24,7 @@
 .testimonial_title {
     margin: 20px 0;
 
-    color: var(--blue);
+    color: var(--yellow);
 }
 
 .testimonial_Image img {
@@ -35,7 +35,7 @@
 }
 
 .ri-double-quotes {
-    color: var(--orange) !important;
+    color: var(--yellow) !important;
     font-size: 20px !important;
 }
 
