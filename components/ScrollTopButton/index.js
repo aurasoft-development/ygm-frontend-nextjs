@@ -1,8 +1,7 @@
-import { Icon } from '@iconify/react';
 import React, { useEffect } from 'react'
+import { isBrowser } from '../../utils/utilsFunctions';
 
 function ScrollTopButton() {
-    const isBrowser = () => typeof window !== 'undefined'; //The approach recommended by Next.js
 
     function scrollToTop() {
         if (!isBrowser()) return;
@@ -26,9 +25,7 @@ function ScrollTopButton() {
         };
     }, [])
     return (
-        <button className="Scroll_button" id='Scroll_button' onClick={() => scrollToTop({ top: 0, behavior: 'smooth' })}>
-            <Icon className='scrollIcon' icon="ri:arrow-up-circle-fill" />
-        </button>
+        <button className="Scroll_button" id='Scroll_button' onClick={() => scrollToTop({ top: 0, behavior: 'smooth' })}><i className="ri-arrow-up-circle-fill"></i></button>
     )
 }
 

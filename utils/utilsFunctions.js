@@ -1,9 +1,10 @@
 import swal from "sweetalert";
 import { toast } from "react-toastify";
-import moment from "moment";
+// import moment from "moment";
 import "moment-timezone";
-import Cookies from "js-cookie";
+// import Cookies from "js-cookie";
 import "react-toastify/dist/ReactToastify.css";
+import Router from 'next/router';
 /******************* 
 @Purpose : Store Data To local Storage
 @Parameter : key, value
@@ -297,7 +298,7 @@ export const msToTimeConversion = (duration) => {
   minutes = (minutes < 10) ? "0" + minutes : minutes;
   seconds = (seconds < 10) ? "0" + seconds : seconds;
 
-  return {hours , minutes , seconds , milliseconds};
+  return { hours, minutes, seconds, milliseconds };
 }
 
 /******************* 
@@ -310,7 +311,7 @@ export const secondsToTimeConversion = (duration) => {
   var hours = Math.floor(duration / 3600),
     minutes = Math.floor(duration % 3600 / 60),
     seconds = Math.floor(duration % 3600 % 60);
-  return {hours , minutes , seconds};
+  return { hours, minutes, seconds };
 }
 
 /******************* 
@@ -329,7 +330,7 @@ export const getTimeStringConversion = (hours, minutes) => {
 @Parameter : duration
 @Author : Aurasoft
 ******************/
-export const getMilliSecondsTime = (h=0, m=0, s=0) => (((+h)*60*60+(+m)*60+(+s))*1000);
+export const getMilliSecondsTime = (h = 0, m = 0, s = 0) => (((+h) * 60 * 60 + (+m) * 60 + (+s)) * 1000);
 
 /******************* 
 @Purpose : set 12 Hour Format
@@ -344,3 +345,13 @@ export const set12HourFormat = (timeString) => {
   var ampm = H < 12 ? "AM" : "PM";
   return timeString = h + timeString.substr(hourEnd, 3) + ampm;
 }
+/******** Logout function****/
+export const logout = async () => {
+  removeItem('GYC_login_user_data');
+  // await localStorage.removeItem('GYC_login_user_data');
+  Router.push({
+    pathname: "/",
+  })
+}
+
+export const isBrowser = () => typeof window !== 'undefined';

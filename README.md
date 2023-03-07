@@ -1,11 +1,28 @@
-## Project Details
-Aurasoft-Development-Frontend
+## Project Name
+GYC-FRONTEND-NEXTJS
 
 ## NodeJS Version
 16.18.0
 
 ## How to run
-npm run dev
+```windows
+  npm run dev
+```
+
+## How to run build
+```windows
+  npm run build
+```
+
+## How to serve build
+```windows
+  npm run start or npm start
+```
+
+## How to run and serve build combined
+```windows
+  npm run start:dev
+```
 
 ## Default Details of NextJS
 

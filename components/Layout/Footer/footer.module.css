@@ -33,7 +33,9 @@
 
 .Footer_section p a {
     text-decoration: none;
-    color: rgba(85, 82, 82, 0.7);
+    /* color: rgba(85, 82, 82, 0.7); */
+    color: rgba(12, 16, 145, 0.9);
+
 }
 
 .Footer_section .li {
@@ -86,3 +88,6 @@
     text-decoration: none;
     color: var(--light_black);
 }
+/* .auraLink{
+    color: blue !important;
+} */

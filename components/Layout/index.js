@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react'
-import Footer from "./Footer";
-import Header from "./Header";
-export default function Layout(props) {
+import React, { Fragment, useEffect } from 'react'
+import Footer from './Footer';
+import Header from './Header';
+
+function Layout(props) {
+
+
     return (
         <Fragment>
             <Header />
@@ -10,4 +13,6 @@ export default function Layout(props) {
             <Footer />
         </Fragment>
     )
-}
+};
+
+export default Layout;
